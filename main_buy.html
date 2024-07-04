@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>Car Selling Site</title>
+    </head>
+    <body class="buy_main_page">
+     <nav class="navbar navbar-expand-sm  bg-dark navbar-dark">
+     <a href="index.html" class="navbar-brand"><span>Car </span>Selling Website</a>
+     <div>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="index.html"class="nav-link">Home</a></li>
+           <li class="nav-item"><a href="about.html"class="nav-link ">About</a></li>
+           <li class="nav-item"><a href="contact.html"class="nav-link">Contact</a></li>
+           <li class="nav-item"><a href="cars.html"class="nav-link">Cars</a></li>
+        </ul>
+     </div>
+
+
+     <div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="sell_buy_page.html" class="nav-link btn">Sell</a></li>
+            <li class="nav-item"><a href="sell_buy_page.html" class="nav-link btn">Buy</a></li>
+        </ul>
+     </div>
+      </nav>
+
+      <section>
+        <div class="container buy_main_header">
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="5.png" class="img-fluid" alt="">
+
+            </div>
+            <div class="offset-sm-1 col-sm-5">
+                <p>
+                    #1 on Trending
+                </p>
+                <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h6> The grand New Series of Mercedes</h6>
+                        <span>
+           
+                        <p> Buying a car involves significant decision-making and financial planning. First, determine your budget and financing options, considering both purchase price and ongoing costs like insurance and maintenance. Research different models to find one that meets your needs for reliability, fuel efficiency, and features. Take test drives to get a feel for the car's performance and comfort. Finally, negotiate the price with dealers or private sellers to get the best deal possible.</p></span>
+                        <button class="btn" data-toggle="modal" data-target="#loginPopup"">Buy Now</button>
+            </div>
+        </div>
+        </div>
+      </section>
+
+
+     <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="loginPopup" >
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+       
+        <div class="modal-body">
+          <div class="container">
+            <h3>Welcome again:It's Good To See You Again </h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="2.png" class="img-fluid" alt="">
+
+                </div>
+                <div class="offset-sm-2 col-sm-5">
+                    <button class="btn_custom">Sign up with Google</button>
+                    <button class="btn_custom">Sign up with Facebook</button>
+
+                    <span class="text-center">
+                        Or
+                    </span>
+                    <form>
+                       <div class="form-group">
+                        <label for="" class="font-weight-bold">Email</label>
+                        <input type="email" class="font-weight-bold form-control" placeholder="Enter your email">
+                       </div>
+
+                       <div class="form-group">
+                        <label for="" class="font-weight-bold">Password</label>
+                        <input type="password" class="font-weight-bold form-control" placeholder="Enter your password">
+                       </div>
+                       <button  type="button"  data-target="#createPopup" data-toggle="modal" class="btn">Create New User Account</button>
+                       <button  type="button"class="btn">Login</button>
+                    </form>
+
+                </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>  
+
+
+
+  <div class="modal fade" id="createPopup" >
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+       
+        <div class="modal-body">
+          <div class="container">
+            <h3>Welcome again:It's Good To See You Again </h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="4.png" class="img-fluid" alt="">
+
+                </div>
+                <div class="offset-sm-2 col-sm-5">
+                    <button class="btn_custom">Sign up with Google</button>
+                    <button class="btn_custom">Sign up with Facebook</button>
+
+                    <span class="text-center">
+                        Or
+                    </span>
+                    <form>
+                       <div class="form-group">
+                        <label for="" class="font-weight-bold">Full Name</label>
+                        <input type="text" class="font-weight-bold form-control" placeholder="Enter your full name">
+                       </div>
+
+                       <div class="form-group">
+                        <label for="" class="font-weight-bold">Password</label>
+                        <input type="password" class="font-weight-bold form-control" placeholder="Enter your password">
+                       </div>
+
+
+                       <div class="form-group">
+                        <label for="" class="font-weight-bold">Email</label>
+                        <input type="email" class="font-weight-bold form-control" placeholder="Enter your email">
+                       </div>
+
+                       <div class="form-group">
+                        <label for="" class="font-weight-bold"> Confirm Password</label>
+                        <input type="password" class="font-weight-bold form-control" placeholder="Enter your Confirm password">
+                       </div>
+
+
+                       <button  type="button" class="btn">Create New User Account</button>
+                       <button  type="button"class="btn">Login</button>
+                    </form>
+
+                </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div> 
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+       
+    </body>
+</html>
